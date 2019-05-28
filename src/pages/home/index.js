@@ -33,7 +33,7 @@ const Home = () => {
   return (
     <Container>
       <Title>Home Page</Title>
-      <SpyLine speed={1}>|</SpyLine>
+      <SpyLine speed={0.5}>|</SpyLine>
     </Container>
   );
 };

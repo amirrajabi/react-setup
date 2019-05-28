@@ -4,7 +4,6 @@ import { Router, Link } from "@reach/router";
 import { Global, css } from "@emotion/core";
 
 import Home from "./home";
-// import Page2 from "./page2";
 
 const LoadablePage2 = Loadable({
   loader: () => import("../pages/page2"),
@@ -35,23 +34,3 @@ const App = () => {
 };
 
 export default App;
-
-/*
-redirect in @reach/router is {navigate("/")}
-*/
-
-/*
-  onBlur using for select.option in form
-*/
-
-/*
-  using portal in new react {more flexebility}
-*/
-
-/*
-  rm -rf .cache/ dist/
-*/
-
-/*
-//eslint-disable-next-line
-*/

@@ -1,5 +1,4 @@
 import React from "react";
-import { render } from "react-dom";
 import { Provider } from "react-redux";
 import configureStore from "./store";
 
@@ -7,16 +6,35 @@ import App from "./pages/app";
 
 const store = configureStore();
 
-const rootElement = document.getElementById("root");
-
-const Root = () => (
+const Index = () => (
   <Provider store={store}>
     <App />
   </Provider>
 );
-render(<Root />, rootElement);
+
+export default Index;
 
 /*
 using .env key:
 process.env.GRAPHQL_URI
+*/
+
+/*
+redirect in @reach/router is {navigate("/")}
+*/
+
+/*
+  onBlur using for select.option in form
+*/
+
+/*
+  using portal in new react {more flexebility}
+*/
+
+/*
+  rm -rf .cache/ dist/
+*/
+
+/*
+//eslint-disable-next-line
 */

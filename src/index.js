@@ -1,10 +1,20 @@
 import React from "react";
 import { render } from "react-dom";
+import { Provider } from "react-redux";
+import configureStore from "./store";
 
 import App from "./pages/app";
 
+const store = configureStore();
+
 const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+
+const Root = () => (
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
+render(<Root />, rootElement);
 
 /*
 using .env key:

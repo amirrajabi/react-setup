@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/Amir/.nvm/versions/node/v10.15.3/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add @emotion/injectGlobal
+  /Users/Amir/.nvm/versions/node/v10.15.3/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add react-redux redux
 
 PATH: 
-  /var/folders/jj/6jh1__j50n5dn53c4rqnw2dm0000gn/T/yarn--1559020031056-0.6598703029453488:/Users/Amir/Project/HOOR-STUDIO/react-setup/node_modules/.bin:/Users/Amir/.config/yarn/link/node_modules/.bin:/Users/Amir/Project/HOOR-STUDIO/react-setup/node_modules/.bin:/Users/Amir/.config/yarn/link/node_modules/.bin:/Users/Amir/.nvm/versions/node/v10.15.3/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/Amir/.nvm/versions/node/v10.15.3/lib/node_modules/npm/bin/node-gyp-bin:/Users/Amir/.nvm/versions/node/v10.15.3/bin/node_modules/npm/bin/node-gyp-bin:/Users/Amir/.nvm/versions/node/v10.15.3/bin:/Users/Amir/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+  /Users/Amir/.nvm/versions/node/v10.15.3/bin:/Users/Amir/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
 
 Yarn version: 
   1.12.3
@@ -14,17 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@emotion%2finjectGlobal: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:65894:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129018:22)
-      at Request.emit (events.js:189:13)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129990:10)
-      at Request.emit (events.js:189:13)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129912:12)
-      at Object.onceWrapper (events.js:277:13)
-      at IncomingMessage.emit (events.js:194:15)
-      at endReadableNT (_stream_readable.js:1125:12)
-      at process._tickCallback (internal/process/next_tick.js:63:19)
+  Error: EACCES: permission denied, mkdir '/Users/Amir/Project/HOOR-STUDIO/react-setup/node_modules/@jest/transform/node_modules/@babel/core/node_modules/source-map'
 
 npm manifest: 
   {
@@ -81,7 +71,8 @@ npm manifest:
       "@reach/router": "^1.2.1",
       "react": "^16.8.6",
       "react-dom": "^16.8.6",
-      "react-emotion": "^10.0.0"
+      "react-emotion": "^10.0.0",
+      "react-loadable": "^5.5.0"
     }
   }
 

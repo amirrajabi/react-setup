@@ -6,7 +6,7 @@ import { Global, css } from "@emotion/core";
 import Home from "./home";
 
 const LoadablePage2 = Loadable({
-  loader: () => import("../pages/page2"),
+  loader: () => import("./page2"),
   loading() {
     return <h1>Loading Split out code...</h1>;
   }

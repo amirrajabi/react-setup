@@ -5,10 +5,15 @@
       "env",
       {
         "targets": {
-          "browsers": ["last 2 versions"]
+          "browsers": [
+            "last 2 versions"
+          ]
         }
       }
     ]
   ],
-  "plugins": ["transform-class-properties", "dynamic-import-node"]
+  "plugins": [
+    "transform-class-properties",
+    "dynamic-import-node"
+  ]
 }

@@ -1,0 +1,76 @@
+{
+  "main": {
+    "menu": [
+      {
+        "title": "",
+        "href": "/",
+        "isExternal": false,
+        "children": [
+          [
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            },
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            }
+          ],
+          [
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            },
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            }
+          ]
+        ]
+      },
+      {
+        "title": "",
+        "href": "/",
+        "isExternal": false,
+        "children": [
+          [
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            },
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            }
+          ],
+          [
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            },
+            {
+              "image": "",
+              "title": "",
+              "href": "",
+              "isExternal": false
+            }
+          ]
+        ]
+      },
+    ]
+  }
+}

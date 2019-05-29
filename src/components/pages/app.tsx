@@ -27,7 +27,11 @@ class App extends Component<RouteComponentProps> {
             }
           `}
         />
+<<<<<<< Updated upstream
         <h1>Hello my friend (Typescript Project)!</h1>
+=======
+        <h1>Hello my friend!</h1>
+>>>>>>> Stashed changes
         <Link to="/">Home</Link>
         <Link to="/page2/1234">Page2</Link>
         <Router>

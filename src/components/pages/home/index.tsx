@@ -26,7 +26,7 @@ to {
 
 const SpyLine = styled("span")`
   display: inline-block;
-  animation: ${props => props.speed}s ${Spin} linear infinite;
+  animation: ${(props): number => props.speed}s ${Spin} linear infinite;
 `;
 
 const Home = () => {
